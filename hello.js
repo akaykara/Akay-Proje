@@ -1,5 +1,5 @@
 var page = require("webpage").create();
-page.open("http://www.facebook.com")
+page.open("https://www.facebook.com/")
     .then(function(status){
         if (status == "success") {
             console.log("The title of the page is: "+ page.title);
