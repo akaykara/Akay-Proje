@@ -1,7 +1,3 @@
-console.log('hello! !!');
-phantom.exit();
-
-
 var page = require("webpage").create();
 page.open("http://localhost:63342/BespokeCloud/app/index.html")
     .then(function(status){
