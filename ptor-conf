@@ -25,9 +25,8 @@ exports.config = {
 	// Spec patterns are relative to the current working directly when
 	// protractor is called.
 
-	specs : ['./e2e/protractor/test_login_failure.js', './e2e/protractor/test_login_success.js'],
+	specs : ['/root/.jenkins/jobs/Akay/workspace/test_login_failure.js', '/root/.jenkins/jobs/Akay/workspace/test_login_success.js'],
 
-    //specs : ['./e2e/angular_ex.js'],
 
 	baseUrl : 'http://localhost:63342/BespokeCloud/app/index.html#',
 
