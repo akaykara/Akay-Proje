@@ -25,7 +25,7 @@ exports.config = {
 	// Spec patterns are relative to the current working directly when
 	// protractor is called.
 
-	specs : ['./jobs/Akay/workspace/test_login_failure.js'],
+	specs : ['./test_login_failure.js'],
 
 
 	baseUrl : 'http://localhost:63342/BespokeCloud/app/index.html#',
