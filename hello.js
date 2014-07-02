@@ -20,7 +20,7 @@ page.open("http://www.yearofmoo.com/2013/01/full-spectrum-testing-with-angularjs
 var webPage = require('webpage');
 var page = webPage.create();
 
-page.open('http://m.bing.com', function(status) {
+page.open('http://www.yearofmoo.com/2013/01/full-spectrum-testing-with-angularjs-and-karma.html', function(status) {
 
   var title = page.evaluate(function() {
     return document.title;
