@@ -9,7 +9,7 @@ exports.config = {
 
 	// Capabilities to be passed to the webdriver instance.
 	capabilities : {
-		'browserName' : 'firefox'
+		'browserName' : 'chrome'
 	},
 
    /* customLaunchers: {
@@ -20,7 +20,7 @@ exports.config = {
     },*/
 
 	//If true, only chromedriver will be started, not a standalone selenium.
-	chromeOnly : false,
+	chromeOnly : true,
 
 	// Spec patterns are relative to the current working directly when
 	// protractor is called.
