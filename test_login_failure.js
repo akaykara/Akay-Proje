@@ -4,6 +4,7 @@
 describe("E2E: Testing Login", function() {
 
 	var ptor = protractor.getInstance();
+	ptor.ignoreSynchronization = true;
 
 	it("should have a working login page", function() {
 		ptor.get('https://angularjs.org/');
