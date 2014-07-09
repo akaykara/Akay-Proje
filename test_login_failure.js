@@ -13,7 +13,6 @@ describe("E2E: Testing Login", function() {
 
         var btnlogin = ptor.findElement(protractor.By.model('yourName'));
         btnlogin.sendKeys('asda');
-
 	
 	});
 });
