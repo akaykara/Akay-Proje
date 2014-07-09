@@ -30,6 +30,8 @@ exports.config = {
 
 	baseUrl : 'http://localhost:63342/BespokeCloud/app/index.html#',
 
+ 	allScriptsTimeout: 20000,
+
     //baseUrl: 'http://localhost:9000',
 
 	// Options to be passed to Jasmine-node.
@@ -38,6 +40,5 @@ exports.config = {
 		defaultTimeoutInterval : 50000
 	}
 	
-	allScriptsTimeout: 20000,
 	
 };
