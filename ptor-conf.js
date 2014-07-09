@@ -9,7 +9,7 @@ exports.config = {
 
 	// Capabilities to be passed to the webdriver instance.
 	capabilities : {
-		'browserName' : 'chrome'
+		'browserName' : 'phantomjs'
 	},
 
    /* customLaunchers: {
@@ -20,7 +20,7 @@ exports.config = {
     },*/
 
 	//If true, only chromedriver will be started, not a standalone selenium.
-	chromeOnly : true,
+	chromeOnly : false,
 
 	// Spec patterns are relative to the current working directly when
 	// protractor is called.
