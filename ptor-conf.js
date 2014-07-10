@@ -10,7 +10,7 @@ exports.config = {
 
 	// Capabilities to be passed to the webdriver instance.
 	capabilities : {
-		'browserName' : 'google-chrome-beta'
+		'browserName' : 'firefox'
 	},
 
    /* customLaunchers: {
