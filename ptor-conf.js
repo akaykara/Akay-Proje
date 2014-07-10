@@ -21,7 +21,7 @@ exports.config = {
     },*/
 
 	//If true, only chromedriver will be started, not a standalone selenium.
-	chromeOnly : false,
+	chromeOnly : true,
 
 	// Spec patterns are relative to the current working directly when
 	// protractor is called.
