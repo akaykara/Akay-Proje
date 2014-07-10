@@ -12,8 +12,8 @@ describe("E2E: Testing Login", function() {
 
         //ptor.sleep(4000);
 
-        var btnlogin = ptor.findElement(protractor.By.model('yourName'));
-        btnlogin.sendKeys('asda');
+        var username = ptor.findElement(protractor.By.model('yourName'));
+        username.sendKeys('vampie');
 	
 	});
 });
