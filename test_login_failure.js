@@ -10,7 +10,7 @@ describe("E2E: Testing Login", function() {
 		ptor.get('https://angularjs.org/');
 		//expect(ptor.getCurrentUrl()).toEqual(ptor.baseUrl + '/connect');
 
-        //ptor.sleep(4000);
+        ptor.sleep(4000);
 
         var username = ptor.findElement(protractor.By.model('yourName'));
         username.sendKeys('vampie');
