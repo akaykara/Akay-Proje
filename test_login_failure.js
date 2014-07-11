@@ -21,7 +21,7 @@ describe("E2E: Testing Login", function() {
 */
 	it("ng-upload example", function() {
 		
-	ptor.get('http://ng-upload.azurewebsites.net/')
+	ptor.get('http://yuilibrary.com/yui/docs/uploader/uploader-multiple.html')
         ptor.sleep(1500);
 
     //    ptor.findElement(protractor.By.model('fullname')).sendKeys('akay');
