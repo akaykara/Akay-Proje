@@ -17,4 +17,19 @@ describe("E2E: Testing Login", function() {
           ptor.sleep(1000);
 	
 	});
+	
+
+	it("should have a working login page", function() {
+		
+	ptor.get('http://ng-upload.azurewebsites.net/')
+        ptor.sleep(1500);
+
+        ptor.findElement(protractor.By.model('fullname')).sendKeys('akay');
+        ptor.findElement(protractor.By.model('gender')).sendKeys('99');
+        ptor.findElement(protractor.By.model('color')).sendKeys('black-red');
+        ptor.findElement(protractor.By.name('file2')).sendKeys('C:\\Users\\Administrator\\Downloads\\angular.min.js');
+        ptor.findElement(protractor.By.model('submit2')).click();
+	
+});
+	
 });
