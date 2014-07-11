@@ -21,7 +21,7 @@ describe("E2E: Testing Login", function() {
 */
 	it("ng-upload example", function() {
 		
-	ptor.get('http://yuilibrary.com/yui/docs/uploader/uploader-multiple.html')
+	ptor.get('http://www.wicket-library.com/wicket-examples/upload/single;jsessionid=16B8898724337AF77B12DA5A07C87120?0')
         ptor.sleep(1500);
 
     //    ptor.findElement(protractor.By.model('fullname')).sendKeys('akay');
