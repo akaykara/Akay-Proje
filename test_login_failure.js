@@ -27,7 +27,7 @@ describe("E2E: Testing Login", function() {
     //    ptor.findElement(protractor.By.model('fullname')).sendKeys('akay');
       //  ptor.findElement(protractor.By.model('gender')).sendKeys('99');
         //ptor.findElement(protractor.By.model('color')).sendKeys('black-red');
-        ptor.findElement(protractor.By.id('yui_3_17_2_1_1405076804084_90')).sendKeys('C:\\Users\\Administrator\\Downloads\\angular.min.js');
+        ptor.findElement(protractor.By.buttonText('Select Files')).sendKeys('C:\\Users\\Administrator\\Downloads\\angular.min.js');
        // ptor.findElement(protractor.By.model('submit2')).click();
 ptor.sleep(2000);
 });
