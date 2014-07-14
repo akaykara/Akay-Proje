@@ -6,19 +6,19 @@ describe("E2E: Testing Login", function() {
 	var ptor = protractor.getInstance();
 	ptor.ignoreSynchronization = true;
 
-/*	it("should have a working login page", function() {
-		ptor.get('https://angularjs.org/');
+	it("should have a working login page", function() {
+		ptor.get('http://188.226.206.224/app/');
 		//expect(ptor.getCurrentUrl()).toEqual(ptor.baseUrl + '/connect');
 
         ptor.sleep(2000);
 
-        var username = ptor.findElement(protractor.By.model('yourName'));
-        username.sendKeys('vampie');
-          ptor.sleep(1000);
+       // var username = ptor.findElement(protractor.By.model('yourName'));
+        //username.sendKeys('vampie');
+          //ptor.sleep(1000);
 	
 	});
 	
-*/
+
 	it("ng-upload example", function() {
 		
 	ptor.get('http://yuilibrary.com/yui/docs/uploader/uploader-multiple.html')
