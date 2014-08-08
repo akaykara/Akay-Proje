@@ -12,7 +12,7 @@ describe("E2E: Testing Login", function() {
         ptor.get('http://localhost:4444/wd/hub');
 
         ptor.sleep(4000);
-    }
+  });
 
 	it("should have a working login page", function() {
 		ptor.get('http://188.226.206.224/app/');
