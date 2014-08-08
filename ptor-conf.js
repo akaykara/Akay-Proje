@@ -25,7 +25,7 @@ exports.config = {
     // Spec patterns are relative to the current working directly when
 	// protractor is called.
 
-	specs : ['./e2e/protractor/test_login_failure.js'],
+	specs : ['test_login_failure.js'],
 
     //specs : ['./e2e/angular_ex.js'],
 
