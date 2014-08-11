@@ -9,8 +9,7 @@ describe("E2E: Testing", function() {
 
 it("Selenium Test", function() {
 
-        ptor.get('http://localhost:4444/wd/hub');
-
+        ptor.get('http://127.0.0.1:4444/wd/hub');
         ptor.sleep(4000);
 
     });
