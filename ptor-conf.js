@@ -7,7 +7,7 @@
 exports.config = {
 	// The address of a running selenium server.
 	seleniumAddress : 'http://127.0.0.1:4444/wd/hub',
-	seleniumPort: 7065,
+	seleniumPort: 7055,
 //    seleniumAddress : 'http://188.226.206.224:4444/wd/hub',
 
     // Capabilities to be passed to the webdriver instance.
