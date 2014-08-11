@@ -27,17 +27,17 @@ describe("E2E: Testing Login", function() {
 	});
 	
 
-	it("ng-upload example", function() {
-		
-	ptor.get('http://yuilibrary.com/yui/docs/uploader/uploader-multiple.html')
-        ptor.sleep(1000);
-
+//	it("ng-upload example", function() {
+//		
+//	ptor.get('http://yuilibrary.com/yui/docs/uploader/uploader-multiple.html')
+  //      ptor.sleep(1000);
+//
     //    ptor.findElement(protractor.By.model('fullname')).sendKeys('akay');
       //  ptor.findElement(protractor.By.model('gender')).sendKeys('99');
         //ptor.findElement(protractor.By.model('color')).sendKeys('black-red');
-        ptor.findElement(protractor.By.buttonText('Select Files')).sendKeys('C:\\Users\\Administrator\\Downloads\\angular.min.js');
-        ptor.findElement(protractor.By.buttonText('Upload Files')).click();
-ptor.sleep(2000);
-});
+  //      ptor.findElement(protractor.By.buttonText('Select Files')).sendKeys('C:\\Users\\Administrator\\Downloads\\angular.min.js');
+    //    ptor.findElement(protractor.By.buttonText('Upload Files')).click();
+//ptor.sleep(2000);
+//});
 	
 });
