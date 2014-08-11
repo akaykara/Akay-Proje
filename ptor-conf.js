@@ -7,7 +7,7 @@
 exports.config = {
 	// The address of a running selenium server.
 	seleniumAddress : 'http://127.0.0.1:4444/wd/hub',
-	seleniumPort: 7055,
+//	seleniumPort: 7055,
 //    seleniumAddress : 'http://188.226.206.224:4444/wd/hub',
 
     // Capabilities to be passed to the webdriver instance.
@@ -16,7 +16,7 @@ exports.config = {
 	},
 
 	//If true, only chromedriver will be started, not a standalone selenium.
-	chromeOnly : false,
+	chromeOnly : true,
 
    //Setting of the window size.
     onPrepare: function() {
