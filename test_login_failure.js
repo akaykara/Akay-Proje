@@ -73,6 +73,7 @@ it("Selenium Test", function() {
             element.all(by.id('btn-drawingPalletPopover')).then(function(selectItem) {
                 selectItem[0].click(); //will click on first item
 
+ptor.sleep(5000);
                     element.all(by.id('free.drawing')).then(function(selectItem) {
                     selectItem[0].click(); //will click on first item
 
