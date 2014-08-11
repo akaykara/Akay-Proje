@@ -7,6 +7,15 @@ describe("E2E: Testing", function() {
     var ptor = protractor.getInstance();
     ptor.ignoreSynchronization = true;
 
+it("Selenium Test", function() {
+
+        ptor.get('http://localhost:4444/wd/hub');
+
+        ptor.sleep(4000);
+
+    });
+
+
     it("Drawing Test", function() {
     	
        // ptor.get('http://localhost:63342/BespokeCloud/app/index.html');
