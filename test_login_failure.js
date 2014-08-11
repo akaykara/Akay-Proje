@@ -10,7 +10,7 @@ describe("E2E: Testing", function() {
 it("Selenium Test", function() {
 
         ptor.get('http://127.0.0.1:4444/wd/hub');
-        ptor.sleep(4000);
+        ptor.sleep(2000);
 
     });
 
@@ -20,7 +20,7 @@ it("Selenium Test", function() {
        // ptor.get('http://localhost:63342/BespokeCloud/app/index.html');
 
  ptor.get('http://188.226.206.224/app/#/connect');
-        ptor.sleep(2000);
+        ptor.sleep(5000);
 
         element.all(by.id('drawing')).then(function(selectItem) {
             selectItem[0].click(); //will click on first item
