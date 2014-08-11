@@ -17,7 +17,7 @@ it("Selenium Test", function() {
     it("Register", function() {
        // ptor.get('http://localhost:63342/BespokeCloud/app/index.html');
         ptor.get('http://188.226.206.224/app');
-        ptor.sleep(4000);
+        ptor.sleep(6000);
 
         element.all(by.id('navRegister')).then(function(selectItem) {
             selectItem[0].click(); //will click on first item
@@ -65,7 +65,7 @@ it("Selenium Test", function() {
        // ptor.get('http://localhost:63342/BespokeCloud/app/index.html');
 
  ptor.get('http://188.226.206.224/app');
-        ptor.sleep(5000);
+        ptor.sleep(6000);
 
         element.all(by.id('drawing')).then(function(selectItem) {
             selectItem[0].click(); //will click on first item
