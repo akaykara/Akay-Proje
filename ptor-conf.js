@@ -15,7 +15,7 @@ exports.config = {
 	},
 
 	//If true, only chromedriver will be started, not a standalone selenium.
-	chromeOnly : true,
+	chromeOnly : false,
 
    //Setting of the window size.
     onPrepare: function() {
