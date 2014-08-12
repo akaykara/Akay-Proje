@@ -20,7 +20,7 @@ exports.config = {
 
    //Setting of the window size.
     onPrepare: function() {
-        browser.driver.manage().window().setSize(1350, 600);
+        browser.driver.manage().window().setSize(1024, 768);
     },
 
     // Spec patterns are relative to the current working directly when
