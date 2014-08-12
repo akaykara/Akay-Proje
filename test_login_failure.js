@@ -37,22 +37,14 @@ it("Selenium Test", function() {
             var email = ptor.findElement(protractor.By.model('registerObj.email'));
             email.sendKeys('akay_kara@hotmail.com');
 
-            element.all(by.id('role')).then(function(selectItem) {
-                selectItem[0].click(); //will click on first item
-                element(by.css('option[value=1]'));
-                ptor.sleep(1000);
-
             expect(username.getAttribute('value')).toEqual('akay');
             expect(realname.getAttribute('value')).toEqual('kara');
             expect(password.getAttribute('value')).toEqual('12345');
             expect(password2.getAttribute('value')).toEqual('12345');
             expect(email.getAttribute('value')).toEqual('akay_kara@hotmail.com');
-
-            element.all(by.id('register2')).then(function(selectItem) {
-               selectItem[0].click(); //will click on first item
+            
             ptor.sleep(1500);
 
         });
     });
-});
 });
