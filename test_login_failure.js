@@ -14,19 +14,6 @@ it("Selenium Test", function() {
 
     });
     
-    
-    it("Selenium Test", function() {
-    
-     ptor.get('http://188.226.206.224/app');
-        ptor.sleep(2000);
-    
-     element.all(by.id('file')).then(function(selectItem) {
-                    selectItem[0].click(); //will click on first item
-                    
-                       ptor.sleep(2000);
-     });
-});
-    
     it("Register", function() {
        // ptor.get('http://localhost:63342/BespokeCloud/app/index.html');
         ptor.get('http://188.226.206.224/app');
@@ -67,6 +54,5 @@ it("Selenium Test", function() {
 
         });
     });
-});
 });
 });
